@@ -1,6 +1,4 @@
-"""
-db_loader.py – Load employee data from employees.db.
-"""
+
 
 import sqlite3
 import pandas as pd
