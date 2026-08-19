@@ -1,8 +1,4 @@
-Here is the **top-level README** for your entire repository – the "front door" to your portfolio.
 
-Create `README.md` in the root of `git_profile/`:
-
-```markdown
 # Engineering Portfolio
 
 > A curated collection of projects demonstrating systems engineering, database architecture, and data science – built from the ground up with professional-grade structure and documentation.
@@ -83,35 +79,3 @@ Each project was designed to demonstrate a specific engineering principle:
 | **Time-Series Analysis** | Sales Forecasting |
 | **Anomaly Detection** | Log Anomaly Detection |
 | **Recommendation Systems** | Employee Recommender |
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/engineering-portfolio.git
-cd engineering-portfolio
-```
-
-### Run a Security Project (Example)
-
-```bash
-cd security-programs/fsm-leak-detector
-make install
-make run
-```
-
-### Run a Database Project (Example)
-
-```bash
-cd database-programs/Library\ Management\ System
-make reset
-make query SQL="SELECT * FROM books LIMIT 5;"
-```
-
-### Run a Data Science Project (Example)
-
-```bash
-cd data_science-programs/Library\ Management\ System\ Dashboard
-make install
-make run
-```
----
