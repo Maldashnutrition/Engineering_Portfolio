@@ -1,7 +1,3 @@
-"""
-recommender.py – Content-based employee similarity.
-"""
-
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
