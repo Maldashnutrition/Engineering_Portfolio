@@ -5,7 +5,6 @@
 
 Create `data_science-programs/Employee Similarity & Mentor Recommender/.gitignore`:
 
-```text
 # Python cache
 __pycache__/
 *.pyc
