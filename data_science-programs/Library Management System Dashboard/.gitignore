@@ -1,8 +1,3 @@
-
----
-
-## 2. `.gitignore`
-
 Create `data_science-programs/Library Management System Dashboard/.gitignore`:
 
 ```text
