@@ -1,0 +1,54 @@
+
+---
+
+## 2. `.gitignore`
+
+Create `data_science-programs/Sales Forecasting & BI Dashboard/.gitignore`:
+
+```text
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Data files
+*.db
+*.sqlite
+*.sqlite3
+
+# Output directories
+output/
+results/
+plots/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.orig
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/

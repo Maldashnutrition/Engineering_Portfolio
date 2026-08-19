@@ -1,0 +1,37 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+
+# Virtual environments (if you ever use one)
+venv/
+env/
+.env/
+
+# Runtime files created by the script
+# These are in /tmp/fsm_demo/, but if you copy them locally, exclude them
+dns_counter.txt
+fsm_state.json
+forensics/
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.orig
+*.tmp

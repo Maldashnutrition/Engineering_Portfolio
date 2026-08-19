@@ -1,0 +1,43 @@
+
+---
+
+## Next: `.gitignore`
+
+Create `database-programs/Library Management System/.gitignore`:
+
+```text
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.orig
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
