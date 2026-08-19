@@ -20,5 +20,5 @@
 
 - **FSM DNS Leak Detector** – shows how to build resilient, state‑aware monitoring that can diagnose and repair issues automatically.
 - **OpenVPN Config Sanitizer** – demonstrates secure parsing and the principle of least privilege for configuration files.
-- **Transactional Reverter** – proves you understand atomic operations, idempotency, and safe rollbacks – essential for automation.
+- **Transactional Reverter** – proves author understand atomic operations, idempotency, and safe rollbacks – essential for automation.
 - **Idle Watchdog** – illustrates predictive heuristics: only act when it’s safe, avoiding disruptions during active use.
