@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Employee Similarity Recommender – Content-based.
-"""
-
 import sys
 import pandas as pd
 import numpy as np
