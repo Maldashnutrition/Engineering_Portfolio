@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-watchdog.py – Idle Watchdog Demo
+ini.py – Idle Watchdog Demo
 
 A standalone demonstration of traffic‑aware scheduling.
 Monitors a network interface (or mock file) for activity,
 and triggers rotation events when traffic drops below a threshold.
 
 Usage:
-    python3 watchdog.py                    # Monitor lo interface (default)
-    python3 watchdog.py --interface eth0  # Monitor a specific interface
-    python3 watchdog.py --mock             # Use a simulated byte counter
-    python3 watchdog.py --dry-run          # Preview actions without triggering
-    python3 watchdog.py --status           # Show current state
+    python3 ini.py                    # Monitor lo interface (default)
+    python3 ini.py --interface eth0  # Monitor a specific interface
+    python3 ini.py --mock             # Use a simulated byte counter
+    python3 ini.py --dry-run          # Preview actions without triggering
+    python3 ini.py --status           # Show current state
 
 Concepts: traffic monitoring, idleness detection, event scheduling,
           predictive heuristics, safe operations.
