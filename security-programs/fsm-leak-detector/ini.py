@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-fsm-leak-detector.py
+ini.py
 
 A standalone demonstration of a Finite State Machine (FSM) for DNS leak
 detection, forensics collection, diagnosis, and auto-healing.
@@ -10,7 +10,7 @@ isolation system. It simulates the logic without modifying any system
 settings, VPNs, or firewalls.
 
 Usage:
-    python3 fsm-leak-detector.py
+    python3 ini.py
 
 Concepts Demonstrated:
     - Stateful incident handling (FSM)
