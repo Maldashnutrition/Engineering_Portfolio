@@ -1,6 +1,3 @@
-Here is the **complete `README.md` for Child 4 (Idle Watchdog)** – fully detailed and formatted in Markdown.
-
-```markdown
 # Idle Watchdog
 
 **A traffic‑aware scheduler that monitors network activity and triggers rotation events only when the link is idle.**  
