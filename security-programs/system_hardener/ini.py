@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-reverter.py – Transactional Reverter Demo
+ini.py – Transactional Reverter Demo
 
 A standalone demonstration of atomic system hardening with rollback.
 This simulates applying and reverting changes to a mock configuration file,
 using a JSON revert stack.
 
 Usage:
-    python3 reverter.py                    # Interactive demo
-    python3 reverter.py --dry-run          # Show actions without applying
-    python3 reverter.py --status           # Show current state
-    python3 reverter.py --apply            # Apply hardening (PERMISSIVE=0)
-    python3 reverter.py --revert           # Revert all changes
-    python3 reverter.py --clean            # Reset config and clear stack
+    python3 ini.py                    # Interactive demo
+    python3 ini.py --dry-run          # Show actions without applying
+    python3 ini.py --status           # Show current state
+    python3 ini.py --apply            # Apply hardening (PERMISSIVE=0)
+    python3 ini.py --revert           # Revert all changes
+    python3 ini.py --clean            # Reset config and clear stack
 
 Concepts: transactional operations, idempotency, rollback, clean error handling.
 """
